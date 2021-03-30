@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@media (max-width: 600px) {
+  header nav a img {
+    margin: 0 !important;
+  }
+  .banner {
+    padding: 1rem;
+  }
+  .banner .b1 {
+    font-size: 2rem !important;
+  }
+  .banner .b2 {
+    font-size: 3rem !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

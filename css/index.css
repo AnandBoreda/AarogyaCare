@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  margin: 0;
+  border: 0;
+  height: 120%;
+  background-color: #e6e2e1;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d5a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc3545;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f08163;
+}
+
+header .top {
+  background-color: #0c5db6;
+  padding: 0.5rem 0;
+}
+
+header .top span {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+
+header .top span a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header .top span i {
+  font-size: 1.1rem;
+}
+
+header nav a img {
+  margin: 0 4rem 0 8rem;
+}
+
+header nav .collapse ul li {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.banner {
+  padding: 1rem 0;
+  background-color: #f08163;
+  padding-left: 5rem;
+}
+
+.banner h2.b1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.banner h2.b2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=index.css.map */

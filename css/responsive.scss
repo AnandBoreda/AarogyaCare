@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+@media (max-width: 600px) {
+  header {
+    nav {
+      a {
+        img {
+          margin: 0 !important;
+        }
+      }
+    }
+  }
+  .banner {
+    padding: 1rem;
+    .b1 {
+      font-size: 2rem !important;
+    }
+    .b2 {
+      font-size: 3rem !important;
+    }
+  }
+}

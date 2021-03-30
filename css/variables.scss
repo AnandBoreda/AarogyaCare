@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$theme_blue: #0c5db6;
+$theme_red: #da1617;
+$theme_saffron: #f08163;
+
+@mixin poppins {
+  font-family: "Poppins", sans-serif;
+}

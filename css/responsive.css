@@ -12,5 +12,25 @@
   .banner .b2 {
     font-size: 3rem !important;
   }
+  .search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .search .city,
+  .search .area,
+  .search .labs,
+  .search .tests {
+    margin-top: 1rem;
+  }
+  .search select {
+    width: 100%;
+  }
+  .search #tests {
+    width: 65%;
+    text-align: left;
+    padding: 0.5rem;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

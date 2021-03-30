@@ -19,4 +19,21 @@
       font-size: 3rem !important;
     }
   }
+  .search {
+    flex-direction: column;
+    .city,
+    .area,
+    .labs,
+    .tests {
+      margin-top: 1rem;
+    }
+    select {
+      width: 100%;
+    }
+    #tests {
+      width: 65%;
+      text-align: left;
+      padding: 0.5rem;
+    }
+  }
 }

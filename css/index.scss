@@ -29,6 +29,9 @@ header {
       a {
         color: #ffffff;
         text-decoration: none;
+        &:hover {
+          @include hover;
+        }
       }
       i {
         font-size: 1.1rem;
@@ -37,6 +40,10 @@ header {
   }
   nav {
     a {
+      &:hover {
+        color: $theme_saffron !important;
+        text-shadow: 0px 10px 20px #8a8aa1;
+      }
       img {
         margin: 0 4rem 0 8rem;
       }
@@ -46,6 +53,7 @@ header {
         li {
           @include poppins;
           font-weight: bold;
+          text-shadow: 0px 5px 10px lightgrey;
         }
       }
     }
@@ -65,5 +73,67 @@ header {
     font-weight: 900;
     color: #ffffff;
     font-size: 4rem;
+  }
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  select,
+  i,
+  input,
+  #search {
+    box-shadow: 5px 5px 10px gray;
+    border: none;
+    &:focus {
+      background-color: $theme_saffron;
+    }
+  }
+  .city {
+    display: flex;
+    flex-direction: row;
+    i {
+      border: none;
+      border-right: none;
+      padding: 0.7rem 0 0.5rem 1.2rem;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      color: $theme_red;
+    }
+    select {
+      border-left: none;
+      padding: 0 1rem;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+  .area,
+  .labs {
+    select {
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+    }
+  }
+  .tests {
+    input {
+      padding: 0.4rem 5rem;
+      border-radius: 20px;
+      outline: none;
+      // text-align: center;
+      text-align: center;
+    }
+    #search {
+      padding: 0.5rem 2rem;
+      border-radius: 20px;
+      background-color: $theme_saffron;
+      outline: none;
+      border: none;
+      color: #ffffff;
+      transition: 0.5s;
+      &:hover {
+        color: $theme_saffron;
+        background-color: $theme_blue;
+      }
+    }
   }
 }

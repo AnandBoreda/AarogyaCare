@@ -28,11 +28,11 @@
     <header>
         <div class="top text-sm-center text-md-right">
             <span class="mx-2"><a href="mailto:info2aarogyacare.com">
-                    info@aarogyacarey.com
+                    info@aarogyacare.com
                 </a></span>
             <br class="d-md-none">
             <span class="mx-2">
-                Call us: <a href="">+91 630 206 9800</a>
+                Call us: <a href="tel:+916302069800">+91 630 206 9800</a>
             </span>
             <span class="mx-2 mr-5">
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
@@ -49,8 +49,8 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item mx-2 active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item mx-2 ">
+                        <a class="nav-link" href="#">Home </a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Lab Tests</a>
@@ -78,6 +78,29 @@
     <div class="banner py-4">
         <h2 class="b1">Looking for labs with </h2>
         <h2 class="b2">Trained & <br> Experienced phlebotomists</h2>
+    </div>
+    <div class="search py-3">
+        <div class="city mx-2">
+            <i class="fa fa-map-marker-alt"></i>
+            <select name="city" id="city">
+                <option value="select city"> Select City </option>
+            </select>
+        </div>
+        <div class="area mx-2">
+            <select name="area" id="area">
+                <option value="area"> Select Area </option>
+            </select>
+        </div>
+        <div class="labs mx-2">
+            <select name="lab" id="lab">
+                <option value="select lab"> All Labs</option>
+            </select>
+        </div>
+        <div class="tests mx-2">
+            <input type="tests" placeholder="Search for Tests(Blood test, MRI etc.,)" name="tests" id="tests">
+            <button type="button" id="search">Search</button>
+        </div>
+
     </div>
 
 </body>
